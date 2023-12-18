@@ -7,29 +7,29 @@ export default function Navibar() {
     <nav>
         
         <div className={styles.container}>
-       <ol className={styles.title}>
-        <li>
+       <div className={styles.title}>
+        <h3>
             <Link href='/sobre'>Sobre</Link>
-          </li>
-          <li>
+          </h3>
+          <h3>
             <Link href='/projetos'>Projetos</Link>
-          </li>
-          <li>
+          </h3>
+          <h3>
             <Link href='/'>Home</Link>
-          </li>
-       </ol>
-       <ol className={styles.network}>
-          <li>
+          </h3>
+       </div>
+       <div className={styles.network}>
+          <h3>
           <a href="https://github.com/HarrisonSilva" target='_blank'>
             GitHub
           </a>
-          </li>
-        <li>
+          </h3>
+        <h3>
         <a href="https://www.linkedin.com/in/harrison-silva-dev/" target='_blank'>
           LinkedIn
         </a>
-        </li>
-       </ol>
+        </h3>
+       </div>
       </div>
 {/*       <h3 className={styles.name}>Harrison Couto</h3>
  */}    </nav>

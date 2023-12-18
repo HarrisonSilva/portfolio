@@ -5,3 +5,41 @@
     margin-left: 400px;
     margin-top: 80px;
 }
+
+.hello {
+    color: #65C7B6;;
+}
+
+.title {
+    color: #fff;
+}
+
+.name {
+    font-family:'Areplos Book', Pro Bold;
+   /*  background-color: #65C7B6; */
+    padding: 2px;
+ /*    border-radius: 10px;
+    color: #121826; */
+}
+
+.container {
+    margin-left: 650px;
+    margin-top: -150px;
+}
+
+
+.professional {
+    background-color: #fff;
+    color: #000;
+    margin-top: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 5px;
+    width: 300px;
+}
+.paragraph {
+    color: #fff;
+    margin-left: 400px;
+    margin-top: 100px;
+    display: none;
+}
