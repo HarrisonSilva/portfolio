@@ -8,13 +8,14 @@
 }
 
 .title {
-    background-color: #65C7B6;
+    /* background-color: #65C7B6; */
     border-radius: 10px;
     width: fit-content;
     text-align: center;
-    color: #000;
+    color: #fff;
     margin-top: 80px;
     font-size: 50px;
     padding: 5px;
     margin-left: 510px;
+    border: 1px solid white;
 }
