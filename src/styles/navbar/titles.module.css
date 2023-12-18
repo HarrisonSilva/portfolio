@@ -1,0 +1,68 @@
+.container {
+    display: flex;
+    /* margin-left: 50px; */
+    justify-content: center;
+    font-size: large;
+    margin-top: 50px;
+}
+
+.title {
+    display: flex;
+    list-style: none;
+   
+}
+
+.title li {
+    margin-right: 1.3em;
+}
+
+.title a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5x;
+    transition: .4s;
+    border-bottom: 2px solid transparent;
+}
+
+.title a:hover {
+    color: black;
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.network {
+    display: flex;
+    list-style: none;
+    margin-left: 100px;
+}
+
+.network li {
+    margin-right: 1.3em;
+}
+
+.network a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5x;
+    transition: .4s;
+    border-bottom: 2px solid transparent;
+}
+
+.network a:hover {
+    border-color: #fff;
+}
+
+.name {
+    font-family:'Areplos Book', Pro Bold;
+    color: #fff;
+    font-size: 17px;
+    margin-top: -18px;
+    margin-left: 100px;
+    width: fit-content;
+}
+
+/* .profession {
+    color: #fff;
+    font-family: monospace;
+} */
