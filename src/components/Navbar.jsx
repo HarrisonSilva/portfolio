@@ -20,14 +20,14 @@ export default function Navibar() {
        </div>
        <div className={styles.network}>
           <h3>
-          <a href="https://github.com/HarrisonSilva" target='_blank'>
+          <Link href="https://github.com/HarrisonSilva" target='_blank'>
             GitHub
-          </a>
+          </Link>
           </h3>
         <h3>
-        <a href="https://www.linkedin.com/in/harrison-silva-dev/" target='_blank'>
+        <Link href="https://www.linkedin.com/in/harrison-silva-dev/" target='_blank'>
           LinkedIn
-        </a>
+        </Link>
         </h3>
        </div>
       </div>

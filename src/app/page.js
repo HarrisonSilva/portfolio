@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import styles from '../styles/photo/photo.module.css'
+import Link from 'next/link'
 
 export default function page() {
   return (
@@ -14,6 +15,10 @@ export default function page() {
       <div>
 
       <p className={styles.paragraph}>Apaixonado em Resolver resoluçoes de problemas <br/> sempre em busca da melhor soluçao</p>
+      </div>
+      <div className={styles.containerInfo}>
+        <Link className={styles.cv} href='https://github.com/HarrisonSilva' target='_blank'><h3>Acessar CV</h3></Link>
+        <h3 className={styles.email}>E-mail: Harrison.couto@outlook.com</h3>
       </div>
     </div>
   )
