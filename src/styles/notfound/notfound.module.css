@@ -1,0 +1,14 @@
+.title {
+    color: #fff;
+    margin-top: 150px;
+    font-size: 80px;
+    width: fit-content;
+    padding: 5px;
+    border-radius: 10px;
+    margin-left: 215px;
+}
+
+.notfound {
+    background-color: red;
+    color: #000;
+}
