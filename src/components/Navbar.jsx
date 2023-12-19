@@ -9,10 +9,10 @@ export default function Navibar() {
         <div className={styles.container}>
        <div className={styles.title}>
         <h3>
-            <Link href='/sobre'>Sobre</Link>
+            <Link href='/about'>Sobre</Link>
           </h3>
           <h3>
-            <Link href='/projetos'>Projetos</Link>
+            <Link href='/projects'>Projetos</Link>
           </h3>
           <h3>
             <Link href='/'>Home</Link>
