@@ -49,6 +49,8 @@
    margin-left: -8px;
 }
 
+
+
 .btnContainer button {
     width: 100px;
     height: 30px;
@@ -57,6 +59,39 @@
     margin: 5px;
     cursor: pointer;
     font-size: 15px;
+}
+
+@media screen and (max-width: 775px) {
+    .btnContainer button{
+        width: 50px;
+        height: 20px;
+        font-size: 10px;
+        margin: 2px;
+    }
+    .btnContainer {
+        margin-left: -545px;
+        margin-top: 15px;
+    }
+    .title {
+        margin-left: 55px;
+        font-size: 25px;
+        margin-top: 10px;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+    .card {
+        width: 200px;
+        height: 350px;
+        margin-left: 0;
+    }
+    .thumbnail {
+        width: 190px;
+        height: 190px;
+    }
+
 }
 
 .btnContainer button:hover {

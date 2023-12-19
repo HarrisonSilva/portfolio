@@ -46,7 +46,7 @@ export default function page() {
         <div key={project.id} className={styles.card} >
             <h2 className={styles.name}>{project.name}</h2>
             <Link href={`/projects/${project.id}`}>
-            <Image as="image" priority src={project.image} width='300' height='300' alt='img' />
+            <Image  className={styles.thumbnail} as="image" priority src={project.image} width='300' height='300' alt='img' />
             </Link>
             <ul className={styles.list}>{project.tech.map((tech, index) => (
               <li key={index}>{tech}</li>
