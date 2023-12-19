@@ -59,6 +59,20 @@
     border-radius: 5px;
 }
 
+.cv h3:hover  {
+    background-color: #fff;
+    color: #000;
+}
+
+.cv h3:active  {
+    box-shadow: 0 0 1px #41ACF1,
+                0 0 2px #41ACF1,
+                0 0 3px #41ACF1,
+                0 0 5px #41ACF1;
+    background-color: #fff;
+    color: #000;
+}
+
 .email {
     color: #fff;
 }
