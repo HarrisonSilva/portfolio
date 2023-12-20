@@ -50,56 +50,51 @@
                 0 0 5px #E8316E;
 }
 
-@media screen and (max-width: 775px) {
+@media (max-width: 775px) {
     .title {
-        border: 2px solid white;
-        padding: 2px;
-        border-radius: 5px;
-        font-size: 40px;
-        margin-left: -380px;
-        margin-top: -20px;
+        border: 0.300rem solid white;
+        padding: 0.500rem;
+        border-radius: 2rem;
+        font-size: 4rem;
+        margin-left: -1.6rem;
+        margin-top: -1.25rem;
     }
-    .thumbnail{
+    .thumbnail {
         display: none;
     }
     .container p {
-        margin-left: -380px;
-        font-size: 10px;
-        margin-top: 115px;
+        margin-left: -0.4rem;
+        font-size: 1.2rem;
+        margin-top: 15rem;
     }
-    /* <Link className={styles.deploy} href={project.repositorio}><h1>Deploy</h1></Link>
-            <Imagem className={styles.deployimg} src={deployimg} width='40' height='40' alt='deploy image'/>
-            <Link className={styles.gh} href={project.deploy}><h1>Repositorio {project.name}</h1></Link>
-            <Imagem className={styles.ghimg} src={ghimg} width='40' height='40' alt='gh image'/>
-         </div> */
-        .deploy {
-            padding: 2px;
-            margin-left: -630px;
-            font-size: 10px;
-            margin-top: -120px;
-            border: 5px solid #41ACF1;
-            border-radius: 5px;
-        }
-        .deployimg {
-            margin-left: -630px;
-            margin-top: -5px;
-            width: 40px;
-            height: 40px;
-        }
-        .gh {
-            padding: 2px;
-            margin-left: -250px;
-            font-size: 10px;
-            margin-top: -92px;
-            border: 5px solid #41ACF1;
-            border-radius: 5px;
-        }
-        .ghimg {
-            margin-left: -250px;
-            margin-top: -6px;
-            width: 40px;
-            height: 40px;
-        }
+    .deploy {
+        padding: 0.125rem;
+        margin-left: -35rem;
+        font-size: 1.2rem;
+        margin-top: -12.5rem;
+        border: 0.3rem solid #41ACF1;
+        border-radius: 0.3125rem;
+    }
+    .deployimg {
+        margin-left: -37rem;
+        margin-top: -0.3125rem;
+        width: 3rem;
+        height: 3rem;
+    }
+    .gh {
+        padding: 0.125rem;
+        margin-left: 1rem;
+        font-size: 1.2rem;
+        margin-top: -7.4rem;
+        border: 0.3rem solid #41ACF1;
+        border-radius: 0.3125rem;
+    }
+    .ghimg {
+        margin-left: -15.625rem;
+        margin-top: -0.375rem;
+        width: 3rem;
+        height: 3rem;
+    }
 }
 
 .gh:hover {

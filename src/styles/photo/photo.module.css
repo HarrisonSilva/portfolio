@@ -5,45 +5,42 @@
     margin-left: 365px;
     margin-top: 120px;
 }
-@media screen and (max-width: 775px) {
+@media (max-width: 775px) {
     .photo {
-        margin-left: 10px;
-        width: 200px;
-        height: 200px;
-        margin-top: 20px;
-        margin-left: 10px;
+        margin-left: 0.625rem;
+        width: 25rem;
+        height: 25rem;
+        margin-top: 2.5rem;
+        margin-left: 1rem;
+        border-radius: 100%;
     }
-        .hello {
-            margin-left: -390px;
-            font-size: 20px;
-            margin-top: -60px;
-        }
-        .title {
-            margin-left: -390px;
-            font-size: 15px;
-            margin-top: -5px;
-        }
-
-        .container h4 {
-            margin-left: -605px;
-            margin-top: 150px;
-            font-size: 25px;
-            width: fit-content;
-        }
-
-      .cv {
-        margin-top: -310px;
-        margin-left: -320px;
-        font-size: 40px;
-
-      }
-      .email {
-        margin-top: -170px;
-        margin-left: -345px;
-        font-size: 20px;
-      }
-        
-    
+    .hello {
+        margin-left: -10rem;
+        font-size: 3rem;
+        margin-top: -20rem;
+    }
+    .title {
+        margin-left: -9rem;
+        font-size: 1.8rem;
+        margin-top: -0.3125rem;
+    }
+    .container h4 {
+        margin-left: -37rem;
+        margin-top: 16rem;
+        font-size: 3rem;
+        padding: 1rem;
+        width: fit-content;
+    }
+    .cv {
+        margin-top: -15rem;
+        margin-left: 3rem;
+        font-size: 5rem;
+    }
+    .email {
+        margin-top: 1rem;
+        margin-left: -38rem;
+        font-size: 2.2rem;
+    }
 }
 
 .hello {
