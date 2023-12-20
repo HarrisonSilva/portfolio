@@ -18,17 +18,17 @@
 
 @media screen and (max-width: 775px) {
     .container {
-        font-size: 15px;
-        margin-left: -300px;
+        font-size: 20px;
+        margin-left: -120px;
     }
     .network a {
         margin-top: 15px;
         font-size: 20px;
-        margin-left: -320px
+        margin-left: -363px
 
     }
     .network {
-        margin-top: -10px;
+        margin-top: 0px;
         gap: 80px;  
     }
     .title {

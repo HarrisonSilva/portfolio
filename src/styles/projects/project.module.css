@@ -49,7 +49,13 @@
    margin-left: -8px;
 }
 
-
+.thumbnail:hover {
+  box-shadow: 0 0 5px #41ACF1,
+                0 0 2px #41ACF1,
+                0 0 3px #41ACF1,
+                0 0 5px #41ACF1;
+    background-color: #41ACF1;
+}
 
 .btnContainer button {
     width: 100px;
@@ -63,18 +69,18 @@
 
 @media screen and (max-width: 775px) {
     .btnContainer button{
-        width: 50px;
-        height: 20px;
-        font-size: 10px;
+        width: 80px;
+        height: 30px;
+        font-size: 15px;
         margin: 2px;
     }
     .btnContainer {
-        margin-left: -545px;
+        margin-left: -380px;
         margin-top: 15px;
     }
     .title {
-        margin-left: 55px;
-        font-size: 25px;
+        margin-left: 130px;
+        font-size: 30px;
         margin-top: 10px;
     }
 
@@ -83,13 +89,13 @@
         flex-direction: column;
     }
     .card {
-        width: 200px;
-        height: 350px;
-        margin-left: 0;
+        width: 368px;
+        height: 530px;
+        margin-left: 0; 
     }
     .thumbnail {
-        width: 190px;
-        height: 190px;
+        width: 358px;
+        height: 358px;
     }
 
 }

@@ -8,7 +8,8 @@ export const mockProjects = [
       image: imgMock,
       type: 'DOM',
       tech: ['JavaScrip', 'CSS', 'HTML'],
-      details: `molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum`,
+      details: `molestiae quas vel sint commodi
+                repudiandae consequuntur voluptatum laborum`,
       repositorio: 'https://github.com/HarrisonSilva',
     },
     {
@@ -18,7 +19,8 @@ export const mockProjects = [
       image: imgMock,
       type: 'Frontend',
       tech: ['JavaScrip', 'React', 'Redux', 'RTL', 'React Router', 'CSS'],
-      details: `molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum`,
+      details: `molestiae quas vel sint commodi 
+                repudiandae consequuntur voluptatum laborum`,
       repositorio: 'https://github.com/HarrisonSilva',
     },
     {

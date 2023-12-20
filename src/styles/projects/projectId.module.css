@@ -50,6 +50,58 @@
                 0 0 5px #E8316E;
 }
 
+@media screen and (max-width: 775px) {
+    .title {
+        border: 2px solid white;
+        padding: 2px;
+        border-radius: 5px;
+        font-size: 40px;
+        margin-left: -380px;
+        margin-top: -20px;
+    }
+    .thumbnail{
+        display: none;
+    }
+    .container p {
+        margin-left: -380px;
+        font-size: 10px;
+        margin-top: 115px;
+    }
+    /* <Link className={styles.deploy} href={project.repositorio}><h1>Deploy</h1></Link>
+            <Imagem className={styles.deployimg} src={deployimg} width='40' height='40' alt='deploy image'/>
+            <Link className={styles.gh} href={project.deploy}><h1>Repositorio {project.name}</h1></Link>
+            <Imagem className={styles.ghimg} src={ghimg} width='40' height='40' alt='gh image'/>
+         </div> */
+        .deploy {
+            padding: 2px;
+            margin-left: -630px;
+            font-size: 10px;
+            margin-top: -120px;
+            border: 5px solid #41ACF1;
+            border-radius: 5px;
+        }
+        .deployimg {
+            margin-left: -630px;
+            margin-top: -5px;
+            width: 40px;
+            height: 40px;
+        }
+        .gh {
+            padding: 2px;
+            margin-left: -250px;
+            font-size: 10px;
+            margin-top: -92px;
+            border: 5px solid #41ACF1;
+            border-radius: 5px;
+        }
+        .ghimg {
+            margin-left: -250px;
+            margin-top: -6px;
+            width: 40px;
+            height: 40px;
+        }
+}
+
 .gh:hover {
      background: #41ACF1;
     border: 2px solid rgb(255, 255, 255);
