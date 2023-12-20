@@ -1,18 +1,16 @@
-.name {
-    color: #ffffff;
-    font-size: small;
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    background-color: #101519;
+    color: #fff;
+    margin-bottom: 0px;
+    font-size: large;
+    margin-top: 4.2rem;
 }
-
-.title {
-    color: #ffffff;
-    /* line-height: -5px; */
-    margin-top: 535px;
-    font-size: small;
-    padding: 5px;
-}
-
-.container {
-    text-align: center;
-    background-color: #343434;
-    height: 27px;
+@media (max-width: 775px) {
+            .footer {
+                display: none;
+            }
 }

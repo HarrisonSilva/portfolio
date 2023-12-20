@@ -13,7 +13,7 @@
     width: fit-content;
     text-align: center;
     color: #fff;
-    margin-top: 80px;
+    margin-top: 7.5rem;
     font-size: 50px;
     padding: 5px;
     margin-left: 510px;
@@ -22,14 +22,13 @@
 
 @media (max-width: 775px) {
     .title {
-        font-size: 5.5rem;
-        margin-left: 9rem;
-        margin-top: 8rem;
+        font-size: 3rem;
+        margin-left: 3.7rem;
+        margin-top: 3rem;
     }
     
     .paragraph {
-        font-size: 1.3rem;
-        margin-left: -1rem;
+        font-size: 0.7rem;
         margin-top: 5rem;
     }
 }
