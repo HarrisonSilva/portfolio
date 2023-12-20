@@ -5,7 +5,7 @@ import Image from 'next/image'
 import styles from '../../styles/projects/project.module.css'
 import Link from 'next/link'
 
-export default function page() {
+export default function Page() {
   const [projects, setProjects] = useState(mockProjects);
   const filterProjects = ({target}) => {
     const { id } = target

@@ -1,4 +1,3 @@
-/* eslint-disable react-hooks/rules-of-hooks */
 'use client';
 import React, { useEffect, useState } from 'react'
 import styles from '../../../styles/projects/projectId.module.css'
@@ -8,7 +7,7 @@ import Link from 'next/link'
 import deployimg from '../../../mock/deploy.png'
 import ghimg from '../../../mock/gh.png'
 
-export default function page({ params }) {
+export default function Page({ params }) {
   const [project, setProject] = useState()
   const { id } = params
   useEffect(() => {
