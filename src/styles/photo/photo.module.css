@@ -1,9 +1,11 @@
 .photo {
+    animation: photo 2s;
     border-radius: 100px;
     border: 5px solid #121826;
     outline: 5px solid #65C7B6;
     margin-left: 365px;
     margin-top: 120px;
+    
 }
 @media (max-width: 775px) {
     .photo {
@@ -50,14 +52,17 @@
 }
 
 .hello {
+    animation: text 2s ease-in-out forwards;
     color: #65C7B6;
 }
 
 .title {
+    animation: text 2s ease-in-out forwards;
     color: #fff;
 }
 
 .name {
+    animation: text 2s ease-in-out forwards;
     font-family:'Areplos Book', Pro Bold;
    /*  background-color: #65C7B6; */
     padding: 2px;
@@ -66,6 +71,7 @@
 }
 
 .container {
+    animation: text 2.3s ease-in-out forwards;
     margin-left: 620px;
     margin-top: -150px;
 }
@@ -88,6 +94,7 @@
 }
 
 .cv  {
+    animation: professional 2.5s ease-in-out forwards;
     text-decoration: none;
     list-style: none;
     margin-top: -10rem;
@@ -118,6 +125,7 @@
 }
 
 .email {
+    animation: professional 2.5s ease-in-out forwards;
     color: #fff;
     margin-top: -10rem;
 }
@@ -129,4 +137,34 @@
     gap: 30px;
     margin-top: 220px;
     margin-left: -15px;
+}
+
+
+@keyframes text {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    to {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+@keyframes professional {
+    from {
+        opacity: 0%;
+    }
+}
+
+@keyframes photo {
+    0% {
+        transform: scale(95%);
+    }
+    80% {
+        transform: scale(98%);
+    }
+    100% {
+        transform: scale(100%);
+    }
 }
