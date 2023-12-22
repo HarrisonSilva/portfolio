@@ -1,0 +1,16 @@
+.ftr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    background-color: #101519;
+    color: #fff;
+    margin-bottom: 0px;
+    font-size: large;
+    margin-top: 19.5rem;
+}
+@media (max-width: 775px) {
+            .footer {
+                display: none;
+            }
+}

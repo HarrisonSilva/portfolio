@@ -6,6 +6,7 @@ import Imagem from 'next/image'
 import Link from 'next/link'
 import deployimg from '../../../mock/deploy.png'
 import ghimg from '../../../mock/gh.png'
+import FTR from '@/components';
 
 export default function Page({ params }) {
   const [project, setProject] = useState()
@@ -27,7 +28,7 @@ export default function Page({ params }) {
             <Imagem className={styles.ghimg} src={ghimg} width='40' height='40' alt='gh image'/>
          </div>
         }
-        
+      <FTR />
     </div>
   )
 }

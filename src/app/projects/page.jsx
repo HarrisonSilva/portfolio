@@ -4,6 +4,7 @@ import { mockProjects } from '@/mock/data'
 import Image from 'next/image'
 import styles from '../../styles/projects/project.module.css'
 import Link from 'next/link'
+import Footer from '@/components/Footer';
 
 export default function Page() {
   const [projects, setProjects] = useState(mockProjects);
@@ -56,6 +57,7 @@ export default function Page() {
     
       ))}
       </div>
+      <Footer />
     </div>
   )
 }

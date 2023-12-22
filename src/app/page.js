@@ -2,6 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import styles from '../styles/photo/photo.module.css'
 import Link from 'next/link'
+import Footer from '@/components/Footer'
 
 export default function page() {
   return (
@@ -20,6 +21,7 @@ export default function page() {
         <Link className={styles.cv} href='https://github.com/HarrisonSilva' target='_blank'><h3>Acessar CV</h3></Link>
         <h3 className={styles.email}>E-mail: Harrison.couto@outlook.com</h3>
       </div>
+      <Footer />
     </div>
   )
 }
