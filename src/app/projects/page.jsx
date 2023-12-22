@@ -1,19 +1,19 @@
 'use client';
 import React, { useState } from 'react'
-import { mockProjects } from '@/mock/data'
+import { projectsData } from '@/projects/data'
 import Image from 'next/image'
 import styles from '../../styles/projects/project.module.css'
 import Link from 'next/link'
 import Footer from '@/components/Footer';
 
 export default function Page() {
-  const [projects, setProjects] = useState(mockProjects);
+  const [projects, setProjects] = useState(projectsData);
   const filterProjects = ({target}) => {
     const { id } = target
-    const filter = mockProjects.filter((project) => project.type === id)
+    const filter = projectsData.filter((project) => project.type === id)
     switch(id) {
       case 'All': {
-        setProjects(mockProjects)
+        setProjects(projectsData)
         break;
       }
       case 'DOM': {
@@ -47,7 +47,10 @@ export default function Page() {
         <div key={project.id} className={styles.card} >
             <h2 className={styles.name}>{project.name}</h2>
             <Link href={`/projects/${project.id}`}>
-            <Image className={styles.thumbnail} as="image" priority src={project.image} width='300' height='300' alt='img' />
+           <div className={styles.containerImg}>
+           <Image className={styles.thumbnail} as="image" priority src={project.image} width='300' height='200' alt='img' />
+            <h1 className={styles.saibamais}>saiba mais</h1>
+           </div>
             </Link>
             <ul className={styles.list}>{project.tech.map((tech, index) => (
               <li key={index}>{tech}</li>

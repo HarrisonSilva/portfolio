@@ -13,6 +13,12 @@
 
 .container p {
     color: #fff;
+    word-break: break-all;
+}
+
+.thumbnail {
+    border-radius: 5px;
+    border: 2px solid black;
 }
 
 .container a {
@@ -20,22 +26,24 @@
     color: #fff;
 }
 
-.deployimg {
+.deployImg {
     margin-top: -50px;
-    margin-left: 150px;
+    display: none;
 }
 
+
+
 .ghimg {
-    margin-top: -55px;
-    margin-left: 350px;
+margin-top: -2.6rem;
+display: none;
 }
 
 .gh {
-    margin-right: -10px;
+    margin-left: 1;
 }
 
 .deploy {
-    margin-left: -15px;
+    margin-left: 0.5rem;
 }
 
 .deploy:hover {
@@ -49,6 +57,7 @@
                 0 0 3px #E8316E,
                 0 0 5px #E8316E;
 }
+
 
 @media (max-width: 775px) {
     .title {
