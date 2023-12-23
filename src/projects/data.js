@@ -3,6 +3,9 @@ import shoppingCartImg from './thumbnails/shoppingcart.png'
 import triviaImg from './thumbnails/trivia.png'
 import trybetunesImg from './thumbnails/trybetunes.png'
 import talkermanageImg from './thumbnails/talkermanage.png'
+import pokenextImg from './thumbnails/pokenext.png'
+import blogsapiImg from './thumbnails/blogsapi.png'
+import storemanagerImg from './thumbnails/storemanager.png'
 
 export const projectsData = [
     {   
@@ -46,13 +49,15 @@ export const projectsData = [
     },
     {
       id: '4',
-      name: 'To Do List',
-      deploy: 'https://github.com/HarrisonSilva',
-      image: imgMock,
+      name: 'PokeNext',
+      deploy: 'https://pokenext-one-tau.vercel.app/',
+      image: pokenextImg,
       type: 'Frontend',
-      tech: ['JavaScript', 'React', 'Context API', 'Vite', 'React Router', 'Tailwind'],
-      details: `molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum`,
-      repositorio: 'https://github.com/HarrisonSilva',
+      tech: ['NextJs', 'CSS Modules'],
+      details: `Utilizando nextjs criei um site aonde sao listado diversos pokemons
+                aonde voce poe clicar em cada card e ter mais informaçoes sobre aquele pokemon especifico
+                usei css module para a estilizaçao.`,
+      repositorio: 'https://github.com/HarrisonSilva/pokenext',
     },
     {
       id: '5',
@@ -71,21 +76,36 @@ export const projectsData = [
     {
       id: '6',
       name: 'Blogs API',
-      deploy: 'https://github.com/HarrisonSilva',
-      image: imgMock,
+      deploy: 'https://github.com/HarrisonSilva/blogsapi',
+      image: blogsapiImg,
       type: 'Backend',
-      tech: ['Docker', 'mySQL', 'NodeJS', 'Express', 'Sequelize'],
-      details: `molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum`,
-      repositorio: 'https://github.com/HarrisonSilva',
+      tech: ['Docker', 'MySQL', 'NodeJS', 'Express', 'Sequelize'],
+      details: `Este projeto envolve o desenvolvimento de uma aplicação em Node.js para a criação de um blog
+                incluindo uma API e um banco de dados. O objetivo principal é implementar as operações CRUD
+                (Create, Read, Update, Delete) para posts, utilizando o pacote Sequelize para interação com o banco de dados.`,
+      repositorio: 'https://github.com/HarrisonSilva/blogsapi',
     },
     {
       id: '7',
       name: 'Store Manager',
-      deploy: 'https://github.com/HarrisonSilva',
-      image: imgMock,
+      deploy: 'https://github.com/HarrisonSilva/storemanager',
+      image: storemanagerImg,
       type: 'Backend',
       tech: ['Docker', 'mySQL', 'NodeJS', 'Express', 'Chai/Sinon'],
+      details: `Foi desenvolvido uma API utilizando a arquitetura MSC (model-service-controller) 
+                para um sistema de gerenciamento de vendas no formato dropshipping. A API permitirá operações como criação
+                visualização, exclusão e atualização de produtos e vendas. O banco de dados MySQL será utilizado para a gestão dos dados
+                e a API será implementada seguindo os princípios RESTful.`,
+      repositorio: 'https://github.com/HarrisonSilva/storemanager',
+    },
+   /*  {
+      id: '8',
+      name: 'To Do List',
+      deploy: 'https://github.com/HarrisonSilva',
+      image: imgMock,
+      type: 'Frontend',
+      tech: ['JavaScript', 'React', 'Context API', 'Vite', 'React Router', 'Tailwind'],
       details: `molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum`,
       repositorio: 'https://github.com/HarrisonSilva',
-    },
+    }, */
   ];

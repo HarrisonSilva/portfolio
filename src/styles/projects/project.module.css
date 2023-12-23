@@ -88,6 +88,7 @@
     right: 4.5rem;
     color: white;
     top: 5rem;
+    border-bottom: 2px solid white;
 }
 
 .btnContainer button {
