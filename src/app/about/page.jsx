@@ -1,6 +1,5 @@
 import React from 'react'
 import styles from '../../styles/about/about.module.css'
-import Footer from '@/components/Footer'
 
 export default function page() {
   return (
@@ -17,7 +16,6 @@ export default function page() {
     que é a área da programação. Sem contar que ainda posso usar<br />
     minhas habilidades de design gráfico junto com a programação.
         </p>
-        <Footer />
     </div>
   )
 }
