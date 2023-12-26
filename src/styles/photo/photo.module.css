@@ -2,53 +2,9 @@
     animation: photo 2s;
     border-radius: 100px;
     border: 5px solid #121826;
-    outline: 5px solid #65C7B6;
-    margin-left: 365px;
-    margin-top: 120px;
-    
+    outline: 5px solid #65C7B6;    
 }
-@media (max-width: 775px) {
-    .photo {
-        width: 20rem;
-        height: 20rem;
-        margin-top: 3rem;
-        margin-left: 1.8rem;
-        border-radius: 100%;
-    }
-    .hello {
-        margin-left: -34rem;
-        font-size: 1rem;
-        margin-top: 10rem;
-    }
-    .name {
-        background-color: #fff;
-        color: #000;
-        border-radius: 0.5rem;
-        font-size: 1rem;
-    }
-    .title {
-        margin-left: -28rem;
-        font-size: 1rem;
-        margin-top: -1.1rem;
-    }
-    .container h4 {
-        margin-left: -36.5rem;
-        margin-top: 1.5rem;
-        font-size: 1.2rem;
-        padding: 1rem;
-        width: fit-content;
-    }
-   
-    .cv h3{        
-        margin-top: -7.5rem;
-        margin-left: 4.3rem;
-        font-size: 2rem;
-    }
-    .email {
-        font-size: 1rem;
-        margin-left: -16.4rem;
-    }
-}
+
 
 .hello {
     animation: text 2s ease-in-out forwards;
@@ -63,40 +19,39 @@
 .name {
     animation: text 2s ease-in-out forwards;
     font-family:'Areplos Book', Pro Bold;
-   /*  background-color: #65C7B6; */
     padding: 2px;
- /*    border-radius: 10px;
-    color: #121826; */
 }
 
 .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     animation: text 2.3s ease-in-out forwards;
-    margin-left: 620px;
-    margin-top: -150px;
+    margin: 100px auto auto auto;
 }
 
+
+.containerData {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+}
 
 .professional {
-    background-color: #fff;
     color: #000;
-    margin-top: 10px;
-    font-size: 20px;
+    font-size: 10px;
     border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.842);
+    height: 32px;
     padding: 5px;
-    width: 300px;
-}
-.paragraph {
-    color: #fff;
-    margin-left: 400px;
-    margin-top: 100px;
-    display: none;
+    width: fit-content;
+    font-size: 20px;
 }
 
 .cv  {
     animation: professional 2.5s ease-in-out forwards;
     text-decoration: none;
     list-style: none;
-    margin-top: -10rem;
 }
 
 .cv h3  {
@@ -104,7 +59,6 @@
     list-style: none;
     border: 2px solid white;
     color: #fff;
-    padding: 4px;
     width: fit-content;
     border-radius: 5px;
 }
@@ -126,18 +80,47 @@
 .email {
     animation: professional 2.5s ease-in-out forwards;
     color: #fff;
-    margin-top: -10rem;
 }
 
-.containerInfo {
+.containerInfo {  
+    animation: info 2s ease-in-out;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 30px;
-    margin-top: 220px;
-    margin-left: -15px;
+    margin-top: 50px;
 }
 
+.containerInfo .cv {
+    margin: 5px;
+}
+
+@keyframes info {
+    from {
+        opacity: 0%;
+    }
+    to {
+        opacity: 100%;
+    }
+}
+
+
+@media (max-width: 775px) {
+    .container {
+        flex-direction: column;
+        margin: 100px auto auto auto;
+    }
+    .containerData {
+        align-items: center;
+    }
+    .containerInfo {
+        flex-direction: column;
+    }
+    .containerInfo .cv {
+        font-size: 40px;
+        padding: 15px;
+        margin-top: -20px; /* REVISAR */
+    }
+}
 
 @keyframes text {
     from {

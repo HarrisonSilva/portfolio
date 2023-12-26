@@ -14,8 +14,7 @@
     padding: 5px;
     border: 1px solid white;
     font-size: 50px;
-    margin-top: 40px;
-    margin-left: 535px;
+    margin: 40px auto auto auto;
 }
 
 .list {
@@ -34,12 +33,6 @@
     text-align: center;
 }
 
-/* .card {
-    margin-left: 70px;
-    border: 5px solid #121826;
-    outline: 10px solid #ffffff;
-    margin-top: 30px;
-} */
 
 .btnContainer {
    display: flex;
