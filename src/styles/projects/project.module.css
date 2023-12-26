@@ -101,6 +101,7 @@
         font-size: 1rem;
     }
     
+
     .btnContainer {
         margin-left: 0.1rem;
         margin-top: 1rem;
@@ -121,7 +122,7 @@
     .card {
         width: 21.8rem;
         height: 34rem;
-        margin-left: 0;
+        margin: auto;
         padding: 5px;
     }
     
@@ -135,6 +136,7 @@
     }
     .saibamais {
         top: 10rem;
+        text-align: center;
     }
 
 }
