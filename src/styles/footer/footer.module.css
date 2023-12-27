@@ -1,0 +1,29 @@
+.fixed {
+    position: fixed;
+}
+
+.relative {
+    position: relative;
+}
+
+.fixed, .relative {
+        animation: footer 1s ease-in-out;
+        border-top: 0.2px solid rgba(0, 0, 0, 0.845);
+        bottom: 0;
+        left: 0;
+        width: 100vw;
+        height: 40px;
+        background-color: #101519;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        padding: 10px;
+      
+}
+
+@keyframes footer {
+    from {
+       transform: translateY(100px);
+    }
+}
