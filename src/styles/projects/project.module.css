@@ -62,8 +62,9 @@
 }
 
 .containerImg {
-    display: inline-block;
     position: relative;
+    display: flex;
+    justify-content: center;
 }
 
 .containerImg:hover {
@@ -76,9 +77,10 @@
 }
 
 .saibamais {
+    text-align: center;
     position: absolute;
     top: 6rem;
-    right: 4.5rem;
+    margin: auto;
     color: white;
     top: 5rem;
     border-bottom: 2px solid white;
@@ -108,7 +110,7 @@
     }
     
     .title {
-        margin-left: 3.8rem;
+        margin: auto;
         font-size: 3.9rem;
         margin-top: 3rem;
     }
@@ -137,6 +139,13 @@
     .saibamais {
         top: 10rem;
         text-align: center;
+        margin: auto;
+        
+    }
+    .containerImg {
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
 }
