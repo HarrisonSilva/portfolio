@@ -150,3 +150,19 @@
         transform: scale(100%);
     }
 }
+
+.line {
+    animation: line 2s;
+    width: 50vw;
+    margin: 10vh auto auto auto;
+    border-color: #65C7B6;
+}
+
+@keyframes line {
+    from {
+        width: 0;
+    }
+    to {
+     width: 50vw;
+    }
+}

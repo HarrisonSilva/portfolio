@@ -19,7 +19,9 @@
         align-items: center;
         color: white;
         padding: 10px;
-      
+        font-family: sans-serif;
+        font-weight: bold;
+        font-size: smaller;
 }
 
 @keyframes footer {
