@@ -6,6 +6,7 @@ import talkermanageImg from './thumbnails/talkermanage.png'
 import pokenextImg from './thumbnails/pokenext.png'
 import blogsapiImg from './thumbnails/blogsapi.png'
 import storemanagerImg from './thumbnails/storemanager.png'
+import creditNextImg from './thumbnails/creditNext.png'
 
 export const projectsData = [
     {   
@@ -97,6 +98,20 @@ export const projectsData = [
                 visualização, exclusão e atualização de produtos e vendas. O banco de dados MySQL será utilizado para a gestão dos dados
                 e a API será implementada seguindo os princípios RESTful.`,
       repositorio: 'https://github.com/HarrisonSilva/storemanager',
+    },
+    {
+      id: '8',
+      name: 'Credit Next',
+      deploy: 'https://creditnext.vercel.app/',
+      image: creditNextImg,
+      type: 'Frontend',
+      tech: ['NextJs', 'CSS Modules'],
+      details: `Credit Next e uma experiençia aonde voce pode cadastrar seus cartões de credito virtual colocando suas informaçoes
+                de forma intuitiva, a aplicaçao funciona de forma em que voce possa vizulizar de forma simulada como ficaria seu cartao de credito
+                no banco escolhido. tambem foi criado uma aba (pagina) para voce poder vizualizar seus cartoes de creditos criados
+                abaixo de cada cartão criado existe botao de deletar o cartao caso seja necessario a exclusão do mesmo
+                existe tambem uma aba contendo informaçoes importante para voce saber qual banco escolher, contendo seus digitos iniciais.`,
+      repositorio: 'https://github.com/HarrisonSilva/creditnext',
     },
    /*  {
       id: '8',
