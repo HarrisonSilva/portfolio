@@ -1,12 +1,5 @@
-.fixed {
-    position: fixed;
-}
-
-.relative {
-    position: relative;
-}
-
-.fixed, .relative {
+.footer {
+        position: fixed;
         animation: footer 1s ease-in-out;
         border-top: 0.2px solid rgba(0, 0, 0, 0.845);
         bottom: 0;

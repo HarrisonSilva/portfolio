@@ -6,7 +6,6 @@ import Imagem from 'next/image'
 import Link from 'next/link'
 import deployImg from '../../../projects/deploy.png'
 import ghimg from '../../../projects/gh.png'
-import Footer from '../../../components/footer/Fixed'
 
 export default function Page({ params }) {
   const [project, setProject] = useState()
@@ -33,7 +32,6 @@ export default function Page({ params }) {
             {renderDetails()}
          </div>
         }
-        <Footer />
     </div>
   )
 }

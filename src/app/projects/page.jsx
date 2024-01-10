@@ -4,7 +4,6 @@ import { projectsData } from '@/projects/data'
 import Image from 'next/image'
 import styles from '../../styles/projects/project.module.css'
 import Link from 'next/link'
-import Footer from '../../components/footer/Relative'
 
 export default function Page() {
   const [projects, setProjects] = useState(projectsData);
@@ -60,7 +59,6 @@ export default function Page() {
     
       ))}
       </div>
-      <Footer />
     </div>
   )
 }

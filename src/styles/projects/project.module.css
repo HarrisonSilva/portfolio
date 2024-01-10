@@ -6,6 +6,10 @@
   
 }
 
+.card {
+  margin-bottom: 10vh;
+}
+
 .title {
     border-radius: 10px;
     width: fit-content;
