@@ -7,6 +7,7 @@ import pokenextImg from './thumbnails/pokenext.png'
 import blogsapiImg from './thumbnails/blogsapi.png'
 import storemanagerImg from './thumbnails/storemanager.png'
 import creditNextImg from './thumbnails/creditNext.png'
+import portfoliopamela from './thumbnails/portfoliopamela.png'
 
 export const projectsData = [
     {   
@@ -110,6 +111,16 @@ export const projectsData = [
                 Fornece também informações úteis sobre diferentes bancos para facilitar a escolha dos usuários. 
                 Resumindo, é uma solução intuitiva para gestão de cartões de crédito virtuais.`,
       repositorio: 'https://github.com/HarrisonSilva/creditnext',
+    },
+    {
+      id: '9',
+      name: 'Portfolio Pamela Martins',
+      deploy: 'https://portfolio-pamela-martins.vercel.app/',
+      image: portfoliopamela,
+      type: 'Frontend',
+      tech: ['NextJs', 'CSS Modules'],
+      details: ``,
+      repositorio: 'https://github.com/HarrisonSilva/portfolio-pamela-martins',
     },
    /*  {
       id: '8',
