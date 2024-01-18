@@ -5,9 +5,12 @@
     justify-content: center;
     font-size: large;
     padding: 17px;
-    background-color: #101519;
     height: 60px;
-    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+    background-color: #101519;
+    height: 15vh;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 9px 5px -4px rgba(0,0,0,0.57);
 }
 
 @keyframes nav {
@@ -55,32 +58,18 @@
     padding: 5x;
     transition: .4s;
     border-bottom: 2px solid transparent;
+    margin: 10px;
 }
 
 .title a:hover {
-    color: #000;
-    background-color: #fff;
-    padding: 5px;
-    border-radius: 10px;
     transition: .10s;
+    border-bottom: 2px solid white;
 }
-
-.title a:active {
-    background: #41ACF1;
-    box-shadow: 0 0 5px #41ACF1,
-                0 0 8px #41ACF1,
-                0 0 10px #41ACF1,
-                0 0 15px #41ACF1;
-    color: #fff;
-    padding: 5px;
-    border-radius: 10px;
-}
-
 
 .network {
     display: flex;
     list-style: none;
-    margin-left: 100px;
+    margin-left: 20vw;
 }
 
 .network h3 {

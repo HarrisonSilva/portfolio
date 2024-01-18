@@ -15,6 +15,16 @@
         font-family: sans-serif;
         font-weight: bold;
         font-size: smaller;
+        flex-direction: column;
+}
+
+.footer p {
+    font-weight: normal;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+}
+.footer h4, .footer p {
+    color: rgba(255, 255, 255, 0.500);
 }
 
 @keyframes footer {
