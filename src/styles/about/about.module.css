@@ -23,8 +23,7 @@
 @media (max-width: 775px) {
     .title {
         font-size: 3rem;
-        margin-left: 3.7rem;
-        margin-top: 3rem;
+        margin: 10vh auto auto auto;
     }
     
     .paragraph {

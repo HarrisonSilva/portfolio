@@ -30,9 +30,10 @@
 @media (max-width: 775px) {
     .container {
         font-size: 2.25rem;
-        height: 3rem;
-        background: none;
         box-shadow: none;
+    }
+    .container a {
+        font-size: 25px;
     }
 
     .network a {
@@ -49,6 +50,7 @@
     .title {
         margin-left: 20rem;
         font-size: 1.5rem;
+        margin-top: -5vh;
     }
 }
 
