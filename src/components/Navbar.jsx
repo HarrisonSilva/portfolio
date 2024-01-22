@@ -1,12 +1,25 @@
+"use client"
 import React from 'react'
 import Link from 'next/link'
 import styles from '../styles/navbar/titles.module.css'
 
 export default function Navibar() {
+  const menuToogleDisplay = () => {
+    const navibarContainer = document.querySelector('#navibar-container')
+    if (navibarContainer.style.display === 'none') {
+      navibarContainer.style.display = 'flex'
+    } else {
+      navibarContainer.style.display = 'none'
+    }
+  }
   return (
     <nav>
-        
-        <div className={styles.container}>
+        <div onClick={menuToogleDisplay} className={styles.menu}>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+        <div onClick={menuToogleDisplay} id='navibar-container' className={styles.container}>
        <div className={styles.title}>
         <h3>
             <Link href='/about'>Sobre</Link>
