@@ -35,8 +35,6 @@
         font-size: 2.25rem;
         box-shadow: none;
         flex-direction: column;
-        background: none;
-        /* display: none; */
         background-color: #101519;
         width: 50vw;
         justify-content: flex-start;

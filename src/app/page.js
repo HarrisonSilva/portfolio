@@ -6,7 +6,7 @@ import Link from 'next/link'
 export default function page() {
   return (
     <div>
-      <div className={styles.container}>
+      <div id='toogle-display' className={styles.container}>
      
       <Image priority className={styles.photo} src='/images/profile/myphoto.png' width='200' height='200' alt='minha-foto'/>
           <div className={styles.containerData}>
@@ -16,7 +16,7 @@ export default function page() {
           </div>
       </div>
       <hr className={styles.line}/>
-      <div className={styles.containerInfo}>
+      <div id='toogle-display' className={styles.containerInfo}>
         <Link className={styles.cv} href='https://drive.google.com/file/d/1JXyWQA6NfY969q5oljjKVbTrxfWgKJll/view?usp=sharing' target='_blank'><h3>Acessar CV</h3></Link>
         <h3 className={styles.email}>E-mail: Harrison.couto@outlook.com</h3>
       </div>

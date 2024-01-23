@@ -6,10 +6,16 @@ import styles from '../styles/navbar/titles.module.css'
 export default function Navibar() {
   const menuToogleDisplay = () => {
     const navibarContainer = document.querySelector('#navibar-container')
-    if (navibarContainer.style.display === 'none') {
-      navibarContainer.style.display = 'flex'
-    } else {
+    const toogleDisplay = document.querySelectorAll('#toogle-display')
+    console.log(toogleDisplay);
+    if (navibarContainer.style.display === 'flex') {
       navibarContainer.style.display = 'none'
+      toogleDisplay[0].style.display = 'flex'
+      toogleDisplay[1].style.display = 'flex'
+    } else {
+      toogleDisplay[0].style.display = 'none'
+      toogleDisplay[1].style.display = 'none'
+      navibarContainer.style.display = 'flex'
     }
   }
   return (
