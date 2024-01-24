@@ -30,6 +30,12 @@
 
 
 @media (max-width: 775px) {
+    .none {
+        display: none;
+    }
+    .flex {
+        display: flex;
+    }
     .container {
         animation: navTwo 1s forwards;
         font-size: 2.25rem;
